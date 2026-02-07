@@ -9,21 +9,21 @@ import { IoIosPeople } from "react-icons/io";
 
 const items = [
     {
-        title: "Worship Service",
+        title: "Sunday Service",
         description: "Join us every Sunday at 9 AM & 5 PM.",
         colSpan: "md:col-span-2",
         icon: <FaChurch className="text-4xl mb-4" />,
         bg: "bg-[#1a1a1a]"
     },
     {
-        title: "Youth Ministry",
+        title: "First Community",
         description: "Empowering the next generation.",
         colSpan: "md:col-span-1",
         icon: <IoIosPeople className="text-4xl mb-4" />,
         bg: "bg-[#222]"
     },
     {
-        title: "Kids Church",
+        title: "First Kids",
         description: "Fun and faith for little ones.",
         colSpan: "md:col-span-1",
         icon: <FaChild className="text-4xl mb-4" />,
@@ -37,7 +37,7 @@ const items = [
         bg: "bg-[#252525]"
     },
     {
-        title: "Small Groups",
+        title: "Grow In Faith Together",
         description: "Life is better together.",
         colSpan: "md:col-span-2",
         icon: <IoIosPeople className="text-4xl mb-4" />,

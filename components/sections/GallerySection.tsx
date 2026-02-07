@@ -7,11 +7,11 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 const images = [
-    "https://images.unsplash.com/photo-1548625361-ec8595edc9c2?q=80&w=2574&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1543165365-07232fe12adc?q=80&w=2574&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1478147427282-58a87a120786?q=80&w=2670&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=2670&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1510590337019-5ef2d39aa407?q=80&w=2670&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=2670&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=2670&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=2670&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=2670&auto=format&fit=crop",
 ];
 
 export default function GallerySection() {

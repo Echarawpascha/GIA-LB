@@ -26,7 +26,6 @@ export default function Home() {
         <AboutSection />
         <ServicesMarquee />
         <BentoGrid />
-        <StatsSection />
         <GallerySection />
         <ContactSection />
         <RegistrationSection />

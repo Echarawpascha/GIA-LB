@@ -152,7 +152,7 @@ export default function SequenceScroll() {
                     <motion.div style={{ opacity: opacity3 }} className="absolute inset-0 flex items-center justify-end p-10 md:p-20">
                         <div className="max-w-xl text-right">
                             <h2 className="font-serif text-4xl md:text-6xl text-[#F6F5F2] leading-tight">
-                                Walking together in <br />
+                                Living and Impacting <br />
                                 faith and <span className="text-[#D4AF37] italic">love</span>.
                             </h2>
                         </div>
