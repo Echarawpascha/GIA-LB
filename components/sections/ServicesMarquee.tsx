@@ -6,7 +6,7 @@ import "swiper/css";
 
 const services = [
     "Sunday Service", "First Community", "First Teens", "First Kids", "Grow in Faith Together",
-    "Prayer Encounter", "Senior Bijak", "Pasutri", "Doa & Konseling", "Baptisan Air", "Youth Ministry"
+    "Prayer Encounter", "Pasutri", "Doa & Konseling", "Baptisan Air"
 ];
 
 export default function ServicesMarquee() {

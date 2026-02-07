@@ -39,7 +39,6 @@ export default function Footer() {
                     <div className="flex gap-6 mb-4 md:mb-0">
                         <a href="#" className="hover:text-accent transition-colors">Instagram</a>
                         <a href="#" className="hover:text-accent transition-colors">Youtube</a>
-                        <a href="#" className="hover:text-accent transition-colors">Facebook</a>
                     </div>
                     <div>
                         Jl. Lengkong Besar No. 1, Bandung
