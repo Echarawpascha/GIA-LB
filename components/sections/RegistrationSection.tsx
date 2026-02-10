@@ -8,19 +8,19 @@ const registrationCards = [
         icon: FiDroplet,
         title: "Baptisan Air",
         description: "Public declaration of your faith in Jesus Christ.",
-        link: "#"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdD0F-3xDLqwnGSZrgCedxYC7zs05KyI6W8196N9r5JviJAwQ/viewform"
     },
     {
         icon: FiHeart,
         title: "Bimbingan Pra-Nikah",
         description: "Preparing couples for a god-centered marriage.",
-        link: "#"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfRWp_XeDv5-Pb0ASi87E70uasRkF994yj1r8eyPkxczc2JOA/viewform"
     },
     {
         icon: FiSun,
         title: "Penyerahan Anak",
         description: "Dedicating your child to the Lord's community.",
-        link: "#"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdPZRu6_V7IgzaIwx37OZ3yNSOaVBTM-hy68RfAL5UYSOKV7g/viewform"
     }
 ];
 

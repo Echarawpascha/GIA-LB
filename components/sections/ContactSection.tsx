@@ -9,21 +9,21 @@ const contactCards = [
         title: "Contact via WhatsApp",
         description: "Get connected with our admin for general inquiries.",
         action: "Chat Now",
-        link: "#"
+        link: "https://api.whatsapp.com/send/?phone=6281222122614&text&type=phone_number&app_absent=0"
     },
     {
         icon: FiHeart,
         title: "Layanan Doa & Konseling",
         description: "We are here to pray with you and provide support.",
         action: "Request Prayer",
-        link: "#"
+        link: "https://api.whatsapp.com/send/?phone=6281221979686&text&type=phone_number&app_absent=0"
     },
     {
         icon: FiUsers,
         title: "Bergabung dalam GIFT",
         description: "Grow in Faith Together - Join our small groups.",
         action: "Find a Group",
-        link: "#"
+        link: "https://api.whatsapp.com/send/?phone=6289687215655&text&type=phone_number&app_absent=0"
     }
 ];
 
