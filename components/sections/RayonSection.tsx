@@ -7,28 +7,28 @@ const rayons = [
     {
         name: "Rayon Arcamanik Ujungberung",
         image: "/images/rayon-pusat.jpg", // Placeholder path
-        location: "Main Sanctuary, Lengkong Besar",
+        location: "under dev",
         instagram: "@giaarcauber",
         mapLink: "#"
     },
     {
         name: "Rayon Gandawijaya",
         image: "/images/rayon-barat.jpg", // Placeholder path
-        location: "West Hall, Kebon Jeruk",
+        location: "under dev",
         instagram: "@giarayongandawijaya",
         mapLink: "#"
     },
     {
         name: "Rayon Taman Cibaduyut Indah",
         image: "/images/rayon-timur.jpg", // Placeholder path
-        location: "East Wing, Antapani",
+        location: "under dev",
         instagram: "@giarayontci",
         mapLink: "#"
     },
-        {
+    {
         name: "Rayon Baladewa",
         image: "/images/rayon-timur.jpg", // Placeholder path
-        location: "East Wing, Antapani",
+        location: "under dev",
         instagram: "@gia.baladewa",
         mapLink: "#"
     }

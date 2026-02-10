@@ -41,7 +41,7 @@ export default function Footer() {
                         <a href="#" className="hover:text-accent transition-colors">Youtube</a>
                     </div>
                     <div>
-                        Jl. Lengkong Besar No. 1, Bandung
+                        Jl. Lengkong Besar No. 56, Bandung
                     </div>
                     <div>
                         © {new Date().getFullYear()} All Rights Reserved.
