@@ -13,7 +13,7 @@ export default function AboutSection() {
     const width = useTransform(scrollYProgress, [0.2, 0.5], ["30%", "100%"]);
 
     return (
-        <section ref={containerRef} id="about" className="relative min-h-[120vh] bg-background text-foreground py-20 px-4 md:px-10 overflow-hidden flex flex-col items-center justify-center">
+        <section ref={containerRef} id="about" className="relative min-h-[120vh] bg-[#F6F5F2] text-foreground pb-20 pt-0 px-4 md:px-10 overflow-hidden flex flex-col items-center justify-center -mt-1">
 
             <div className="max-w-6xl mx-auto text-center space-y-12 z-10 w-full">
                 <motion.h2

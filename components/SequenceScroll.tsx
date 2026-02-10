@@ -9,8 +9,8 @@ export default function SequenceScroll() {
     const [images, setImages] = useState<HTMLImageElement[]>([]);
     const [loaded, setLoaded] = useState(false);
 
-    const startFrame = 38;
-    const endFrame = 192;
+    const startFrame = 1;
+    const endFrame = 82;
     const frameCount = endFrame - startFrame + 1;
 
     // 1. Load Images
@@ -23,8 +23,8 @@ export default function SequenceScroll() {
                 const promise = new Promise<void>((resolve) => {
                     const img = new Image();
                     const frameNumber = startFrame + i;
-                    const zeroPadIndex = frameNumber.toString().padStart(3, '0');
-                    img.src = `/sequence/ezgif-frame-${zeroPadIndex}.jpg`;
+                    const zeroPadIndex = frameNumber.toString().padStart(4, '0');
+                    img.src = `/sequence/frame_${zeroPadIndex}.webp`;
                     img.onload = () => resolve();
                     img.onerror = () => resolve();
                     imgs[i] = img;
@@ -158,6 +158,27 @@ export default function SequenceScroll() {
                         </div>
                     </motion.div>
                 </div>
+
+                {/* Wave Transition - Narrative Bridge */}
+                <motion.div
+                    style={{
+                        opacity: useTransform(scrollYProgress, [0.9, 1], [0, 1]),
+                        y: useTransform(scrollYProgress, [0.9, 1], [80, 0])
+                    }}
+                    className="absolute bottom-0 left-0 w-full z-20 pointer-events-none"
+                >
+                    <svg
+                        viewBox="0 0 1440 320"
+                        className="w-full h-auto block"
+                        preserveAspectRatio="none"
+                    >
+                        <path
+                            fill="#F6F5F2"
+                            fillOpacity="1"
+                            d="M0,288L120,245.3C240,203,480,117,720,117.3C960,117,1200,203,1320,245.3L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                        />
+                    </svg>
+                </motion.div>
             </div>
         </div>
     );

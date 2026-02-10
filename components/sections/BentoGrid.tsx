@@ -16,7 +16,7 @@ const items = [
         bg: "bg-[#1a1a1a]"
     },
     {
-        title: "First Community",
+        title: "First Community 2",
         description: "Empowering the next generation.",
         colSpan: "md:col-span-1",
         icon: <IoIosPeople className="text-4xl mb-4" />,
