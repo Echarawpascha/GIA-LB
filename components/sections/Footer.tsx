@@ -37,8 +37,8 @@ export default function Footer() {
 
                 <div className="mt-20 flex flex-col md:flex-row justify-between items-center text-sm font-mono opacity-60 border-t border-white/10 pt-10">
                     <div className="flex gap-6 mb-4 md:mb-0">
-                        <a href="#" className="hover:text-accent transition-colors">Instagram</a>
-                        <a href="#" className="hover:text-accent transition-colors">Youtube</a>
+                        <a href="https://www.instagram.com/gia.lb/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Instagram</a>
+                        <a href="https://www.youtube.com/@GIALengkongBesar" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Youtube</a>
                     </div>
                     <div>
                         Jl. Lengkong Besar No. 56, Bandung

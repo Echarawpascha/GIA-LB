@@ -7,23 +7,23 @@ const rayons = [
     {
         name: "Rayon Arcamanik Ujungberung",
         image: "/images/rayon-pusat.jpg", // Placeholder path
-        location: "under dev",
+        location: "Arcamanik",
         instagram: "@giaarcauber",
-        mapLink: "#"
+        mapLink: "https://share.google/X0BhPBOzthVeB7yfx"
     },
     {
         name: "Rayon Gandawijaya",
         image: "/images/rayon-barat.jpg", // Placeholder path
-        location: "under dev",
+        location: "Cimahi",
         instagram: "@giarayongandawijaya",
-        mapLink: "#"
+        mapLink: "https://share.google/JahnKIkZCHesuPBRx"
     },
     {
         name: "Rayon Taman Cibaduyut Indah",
         image: "/images/rayon-timur.jpg", // Placeholder path
-        location: "under dev",
+        location: "Cibaduyut",
         instagram: "@giarayontci",
-        mapLink: "#"
+        mapLink: "https://maps.app.goo.gl/93KYc3uKrUvnqGeZ6"
     },
     {
         name: "Rayon Baladewa",
@@ -49,7 +49,7 @@ export default function RayonSection() {
                         <h2 className="text-4xl font-serif mb-6 tracking-tight">Join Our Services</h2>
                         <p className="opacity-60 max-w-xl text-lg font-light leading-relaxed">Find a community near you and grow together in faith.</p>
                     </div>
-                    <a href="#" className="flex items-center gap-3 text-[#D4AF37] hover:text-[#2A2A2A] transition-colors pb-1 border-b border-[#D4AF37]/30 hover:border-[#2A2A2A] text-sm uppercase tracking-widest font-medium">
+                    <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[#D4AF37] hover:text-[#2A2A2A] transition-colors pb-1 border-b border-[#D4AF37]/30 hover:border-[#2A2A2A] text-sm uppercase tracking-widest font-medium">
                         See all locations <FiArrowRight />
                     </a>
                 </motion.div>
@@ -76,13 +76,13 @@ export default function RayonSection() {
                                 <h3 className="text-2xl font-serif mb-6 group-hover:text-[#D4AF37] transition-colors duration-500">{rayon.name}</h3>
 
                                 <div className="flex flex-col gap-4">
-                                    <a href={rayon.mapLink} className="flex items-center gap-4 text-sm text-[#2A2A2A]/70 hover:text-[#D4AF37] transition-colors duration-300">
+                                    <a href={rayon.mapLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-sm text-[#2A2A2A]/70 hover:text-[#D4AF37] transition-colors duration-300">
                                         <div className="p-2.5 rounded-full bg-[#F6F5F2] group-hover:bg-[#D4AF37]/10 transition-colors duration-300">
                                             <FiMapPin className="text-[#2A2A2A]/50 group-hover:text-[#D4AF37] transition-colors" />
                                         </div>
                                         {rayon.location}
                                     </a>
-                                    <a href={`https://instagram.com/${rayon.instagram.replace('@', '')}`} className="flex items-center gap-4 text-sm text-[#2A2A2A]/70 hover:text-[#D4AF37] transition-colors duration-300">
+                                    <a href={`https://instagram.com/${rayon.instagram.replace('@', '')}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-sm text-[#2A2A2A]/70 hover:text-[#D4AF37] transition-colors duration-300">
                                         <div className="p-2.5 rounded-full bg-[#F6F5F2] group-hover:bg-[#D4AF37]/10 transition-colors duration-300">
                                             <FiInstagram className="text-[#2A2A2A]/50 group-hover:text-[#D4AF37] transition-colors" />
                                         </div>

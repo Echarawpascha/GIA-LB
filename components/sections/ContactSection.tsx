@@ -36,6 +36,8 @@ export default function ContactSection() {
                         <motion.a
                             key={index}
                             href={card.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
