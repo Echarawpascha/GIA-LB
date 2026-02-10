@@ -6,12 +6,12 @@ import "swiper/css";
 
 const services = [
     "Sunday Service", "First Community", "First Teens", "First Kids", "Grow in Faith Together",
-    "Prayer Encounter", "Pasutri", "Doa & Konseling", "Baptisan Air"
+    "Kaum Pria", "Pasutri", "Doa & Konseling", "Baptisan Air"
 ];
 
 export default function ServicesMarquee() {
     return (
-        <div className="py-20 bg-foreground text-background overflow-hidden cursor-default select-none"> 
+        <div className="py-20 bg-foreground text-background overflow-hidden cursor-default select-none">
             <Swiper
                 modules={[Autoplay]}
                 spaceBetween={50}

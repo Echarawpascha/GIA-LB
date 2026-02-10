@@ -10,13 +10,13 @@ import { IoIosPeople } from "react-icons/io";
 const items = [
     {
         title: "Sunday Service",
-        description: "Join us every Sunday at 9 AM & 5 PM.",
+        description: "Join us every Sunday at 7 AM , 9 AM & 11 PM.",
         colSpan: "md:col-span-2",
         icon: <FaChurch className="text-4xl mb-4" />,
         bg: "bg-[#1a1a1a]"
     },
     {
-        title: "First Community 2",
+        title: "First Community",
         description: "Empowering the next generation.",
         colSpan: "md:col-span-1",
         icon: <IoIosPeople className="text-4xl mb-4" />,
@@ -30,7 +30,7 @@ const items = [
         bg: "bg-[#1c1c1c]"
     },
     {
-        title: "Community Outreach",
+        title: "Ladies Ministry",
         description: "Serving our neighbors with love.",
         colSpan: "md:col-span-2",
         icon: <FaHandsHelping className="text-4xl mb-4" />,
